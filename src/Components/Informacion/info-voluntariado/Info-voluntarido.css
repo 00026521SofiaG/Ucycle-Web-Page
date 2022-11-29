@@ -1,0 +1,132 @@
+.container {
+    display: flex;
+    place-content: stretch flex-start;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+    flex-flow: row wrap;
+    align-content: stretch;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+
+}
+
+
+
+.container h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    color: #000;
+    font-weight: 700;
+    max-width: 500px;
+    text-align: center;
+    min-width: 300px;
+}
+
+.container-imagen {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 50%;
+    min-width: 300px;
+    padding-block: 8px;
+
+
+}
+
+.container-imagen img {
+    width: 100%;
+    max-width: 500px; 
+    min-width: 300px;
+    justify-self: flex-end;
+
+}
+
+.container-voluntariado {
+    display: flex;
+    font-family: "economica";
+    flex-direction: column;
+    font-size: 15px;
+    align-items: center;
+    flex: 1 0;
+    gap: 3px;
+    min-width: 300px;
+    max-width: 500px;
+    border: 2px solid #000;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px;
+
+}
+
+
+.container-voluntariado li>label {
+    color: rgb(255, 0, 0);
+}
+
+form.container-voluntariado>#POST-name {
+    width: 75%;
+    
+}
+
+.voluntariado-cubo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+.container-voluntariado {
+    font-family: "economica";
+    padding: 1rem 0.5rem 0.8rem 0rem;
+    background: rgb(209, 196, 196);
+    font-weight: 700;
+    text-align: center;
+}
+
+#POST-name {
+    width: 100%;
+    height: 30px;
+    background: rgb(110, 104, 104);
+    font-family: "economica";
+    color: white;
+    place-content: 200;
+    font-size: 15px;
+    padding: 1rem;
+    border-radius: 0.20rem;
+}
+
+.botones-form {
+   
+    gap: 1px;
+    width: 100%;
+    padding-top: 5px;
+}
+
+/* Trabajando con MediaQuerys */
+
+@media screen and (max-width: 990px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        height: 100%;
+        background: fffff;
+        flex-flow: row wrap;
+        align-content: stretch;
+        min-width: 394px;
+        /* Arreglando el div del Footer */
+
+        
+    }
+}

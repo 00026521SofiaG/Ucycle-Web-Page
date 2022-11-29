@@ -1,0 +1,119 @@
+header {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  background-color: #084935;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem;
+  color: #ffff;
+  font-weight: 600; 
+}
+
+.name-page{
+  padding: 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: 1.4rem;
+  color: #ffff;
+}
+
+nav{
+  text-align: center;
+}
+
+nav a{
+     font-family: 'Economica', sans-serif;
+     padding: 25px;
+     color:#ffff;
+     font-size: 1.3rem;
+
+}
+
+nav img{
+  width: 65px;
+  height: 65px;
+}
+
+
+.button-header{
+  height: 4.5rem;
+  width: 5rem;
+  color: #ffff;
+  font-size: 1.3rem;
+  font-family:'Economica', sans-serif;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+
+/* Trabajando la MediaQuery del Header.jsx */
+
+@media screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #084935;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    min-width: 394px;
+  }
+
+  .name {
+    display: flex;
+    align-items: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    color: #ffff;
+    font-weight: 600;
+  }
+
+  .name-page {
+    padding: 10px;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.4rem;
+    color: #ffff;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  nav a {
+    font-family: 'Economica', sans-serif;
+    padding: 25px;
+    color: #ffff;
+    font-size: 1.3rem;
+  }
+
+  nav img {
+    width: 65px;
+    height: 65px;
+  }
+
+
+  .button-header {
+    height: 4.5rem;
+    width: 5rem;
+    color: #ffff;
+    font-size: 1.3rem;
+    font-family: 'Economica', sans-serif;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+}

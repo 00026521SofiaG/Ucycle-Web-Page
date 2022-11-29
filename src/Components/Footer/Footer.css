@@ -1,0 +1,75 @@
+.pie-pagina{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #084935;
+   
+ 
+}
+
+.pie-pagina .container-footer{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 29px 0px;
+    align-content: space-around;
+    justify-content: end;
+    align-items: start;
+}
+
+.name-pie{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff; 
+}
+
+
+.pie-pagina .container-footer .red-social a{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #165542;
+    text-align: center;
+
+}
+
+.red-social{
+    flex-wrap: nowrap;
+}
+.pie-pagina .container-footer #whatsapp a{
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #165542;
+    text-align: center;
+
+    
+}
+.pie-pagina .container-footer #whatsapp{
+    color: #fff;
+    display:flex;
+    flex-direction: column;
+}
+
+.pie-pagina .derecho-autor{
+    background-color: #063828;
+    padding: 10px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .derecho-autor small{
+    font-size: 15px;
+}
+
+/* Trabanjando la MediaQuery de Footer.jsx  */
+

@@ -1,0 +1,114 @@
+
+.aut0-profile {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 39rem;
+    background-color: white;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+
+}
+
+.aut0-profile h1 {
+
+    color: black;
+    font-family: "economica";
+    font-size: 3rem;
+    margin: 1rem;
+    font-weight: 800;
+
+}
+
+.aut0-profile img {
+    
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        margin: 1rem;
+        ;
+    
+}
+
+.container-profile {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+}
+
+.aut0-profile .footer-1 {
+
+    width: 100%;
+
+}
+
+/* Trabajando con MediaQuery  */
+
+@media screen and (max-width: 768px) {
+
+    .aut0-profile {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        min-width: 39rem;
+        background-color: white;
+        flex-wrap: wrap;
+        align-content: stretch;
+        justify-content: space-evenly;
+        min-width: 562px;
+
+    }
+
+    .aut0-profile h1 {
+
+        color: black;
+        font-family: "economica";
+        font-size: 2rem;
+        margin: 1rem;
+        font-weight: 800;
+
+    }
+
+    .aut0-profile img {
+    
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        margin: 1rem;
+        ;
+    
+    }
+
+    .container-profile {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 550px;
+        width: 100%;
+        height: 100%;
+        max-height: 504px;
+        background-color: white;
+
+    }
+
+    .aut0-profile .footer-1 {
+
+        width: 100%;
+
+    }
+
+}
+

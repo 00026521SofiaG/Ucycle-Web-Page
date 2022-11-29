@@ -1,0 +1,160 @@
+.title{
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    background: rgba(8, 73, 53, 0.69);
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-block: 2rem;
+    padding: 10px;
+    
+ }
+ 
+ .title-card{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 72px;
+    color: #fff;
+ 
+ }
+ .container-Notice{
+   
+ 
+   width: 100%;
+   height: 100%;
+   
+ 
+ }
+ 
+ .tittle-noticee2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-style: normal;
+   font-family: 'Staatliches', cursive;
+   font-weight: 400;
+   font-size: 34px;
+   line-height: 52px;
+   top: -320px;
+   left: 476px;
+   width: 150px;
+   height: 37px;
+   position: relative;
+   background: #F3F81C;
+   color: #000000;
+ }
+ .button-notice{
+ 
+    font-style: normal;
+    position: relative;
+    top: -240px;
+    left: -410px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 41px;
+    font-family: 'Anton', sans-serif;
+    border: none;
+    width: 210px;
+    height: 44px;
+    color: #fff;
+    background: rgba(53, 169, 58, 1);
+    justify-content: center;
+ }
+ 
+ 
+ 
+ .button-notice1:hover{
+    transform: scale(1.02);
+    transition: all 200ms;
+    cursor:pointer;
+ 
+ }
+ 
+ .button-notice:hover{
+   transform: scale(1.02);
+    transition: all 200ms;
+    cursor:pointer;
+ }
+ .Notice-card{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 100%;
+   height: 270px;
+ 
+   background: #000000;
+ 
+ }
+ 
+ .Notice-card2{
+   display: flex;
+   flex-direction: column;
+   justify-content: unset;
+   align-items: center;
+   width: 100%;
+   margin-top: 1rem;
+   height: 344px;
+  
+ }
+ 
+ 
+ 
+ .card-notice{
+   display: flex;
+   flex-wrap: wrap;
+   padding-left: 6.5rem;
+   padding-right: 6.5rem;
+   width: 100%;
+   height: 100%;
+ 
+  }
+ 
+ #Notice{
+    
+   height: 100%;
+   padding-block: 3%;
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+ 
+  }
+ 
+  .container-img-article{
+    width: 100%;
+    height: 105%;
+    top: -25%;
+    position: relative;
+ 
+  }
+ 
+  .img-article-{
+    width: 100%;
+    height: 100%;
+  }
+  .img-article-2{
+   width: 100%;
+   height: 100%;
+ }
+ 
+ .title-article-notice{
+   display: flex;
+   text-align: start;
+   font-style: normal;
+   padding: 0.6rem;
+   margin: 0.5rem;
+   font-family: 'Anton', sans-serif;
+   font-weight: 400;
+   font-size: 40px;
+   top: -290px;
+   left: -40px;
+   width: 80%;
+   height: 100%;
+   position: relative;
+   color: #fff;
+   background:rgba(0, 0, 0, 0.7)
+ }

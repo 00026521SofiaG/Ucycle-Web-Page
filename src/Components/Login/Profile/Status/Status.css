@@ -1,0 +1,191 @@
+.status-profile {
+    padding: 1rem;
+}
+
+.status-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem;
+    
+}
+
+.sistema-de-compras span {
+
+    border: 1px solid #fff;
+    width: 100px;
+    height: 30px;
+    font-size: 25px;
+
+}
+
+.ingreso-valores {
+
+    display: flex;
+    flex-direction: row; 
+    gap: 1rem;
+    background-color: rgb(5, 5, 60);
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    align-items: baseline;
+    color: white;;
+    width: 100%;
+    height: 102px;
+    margin: 25px;
+
+    
+
+}
+
+
+.sistema-de-compras {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 1rem;
+    background-color: rgb(5, 5, 60);
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    color: white;
+    max-width: 550px;
+
+
+}
+
+
+.menos {
+    font-family: "economica";
+    height: 60px;
+    width: 100px;
+    background: rgb(172, 13, 13);
+    font: "economica";
+    color: white;
+    font-size: 25px;
+}
+
+.mas {
+    font-family: "economica";
+    height: 60px;
+    width: 100px;
+    background: rgb(1, 153, 1);
+    font: "economica";
+    color: white;
+    font-size: 25px;
+}
+
+.compra {
+    font-family: "economica";
+    height: 60px;
+    width: 100px;
+    background: rgb(16, 162, 138);
+    font: "economica";
+    color: white;
+    font-size: 25px;
+}
+
+/*Style conversiones: */
+
+.h-sociales {
+    font-family: "economica";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 25px;
+
+}
+
+.cupones-status {
+    font-family: "economica";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.borrar {
+    font-family: "economica";
+    font-size: 40px;
+    height: 60px; 
+    width: 150px;
+    background: rgb(235, 185, 22); 
+    color: white;
+    border-radius: 10px;
+    border: none;
+    
+
+}
+
+.equivalencias {
+    font-family: "pacifico";
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.cupones-a {
+    font-family: "economica";
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 25px;
+
+}
+
+.cant {
+    font-family: "economica";
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.aut0-profile {
+    min-width: 550px;
+}
+
+@media screen and (max-width: 768px) {
+    .sistema-de-compras {
+        
+        max-width: 270px;
+        font-size: small;
+    }
+
+    .sistema-de-compras span {
+        font-size: 20px;
+    }
+
+    .sistema-de-compras label {
+        font-size: 15px;
+    }
+
+    .sistema-de-compras .mas, .menos, .compra {
+        
+        font-size: 15px;
+        width: 100px;
+        height: 50px;
+
+    }
+
+    .ingreso-valores {
+        flex-direction: column;
+        gap: 0.5rem;
+        height: 100%;
+        width: 100%;
+    }
+
+    .ingreso-valores .mas, .menos, .compra {
+        align-items: center;
+        font-size: 10px;
+
+    }
+}
+    
